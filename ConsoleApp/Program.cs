@@ -54,7 +54,7 @@ class Program
 
             if (resultado == "Felicitaciones")
             {
-                Console.WriteLine($"Café restante: {cafetera.GetCantidadCafe()}ml");
+                Console.WriteLine($"Café restante: {cafetera.GetCantidadCafe()} Oz");
                 Console.WriteLine($"Azúcar restante: {azucarero.GetCantidadAzucar()} cucharadas");
                 Console.WriteLine($"Vasos restantes: {maquinaDeCafe.GetTipoVaso(tipoVaso).GetCantidadVasos()} del tipo {tipoVaso}");
             }
